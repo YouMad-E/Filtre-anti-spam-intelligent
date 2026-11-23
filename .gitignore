@@ -1,0 +1,27 @@
+# 1. Secrets et variables d'environnement 
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+
+# 2. Fichiers propres du système ou éditeur
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# 3. Dossiers générés ou environnements locaux 
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+node_modules/
+dist/
+build/
+*.log
+
+# 4. L'archive zip elle-même 
+*.zip
